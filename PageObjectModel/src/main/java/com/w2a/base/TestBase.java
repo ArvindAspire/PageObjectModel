@@ -63,6 +63,8 @@ public class TestBase {
 	@AfterSuite
 	public void TearDown() {
 		
+		driver.quit();
+		
 	}
 	
 }
